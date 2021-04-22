@@ -2,10 +2,17 @@
     margin: 0;
     padding: 0;
 }
+.container{
+    position: absolute;
+}
+ul{
+    position: fixed;
+}
 .header{
     background: url('./img/Universe\ \(62\).JPG')no-repeat center / cover;
     height: 85vh;
     animation: slider 10s infinite linear;
+    position: relative;
 }
 @keyframes slider{
     10%{
