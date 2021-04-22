@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+.header{
+    background: url('./img/Universe\ \(62\).JPG');
+    height: 85vh;
+    animation: slider 10s infinite linear;
+}
 @keyframes slider{
     10%{
         background: url('/img/How-Tech-is-Changing-the-Way-we-Work-1024x639.jpg');
