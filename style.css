@@ -4,6 +4,12 @@
 }
 @keyframes slider{
     10%{
-        background: url('/');
+        background: url('/img/How-Tech-is-Changing-the-Way-we-Work-1024x639.jpg');
+    }
+    60%{
+        background: url('/img/images.jpg');
+    }
+    30%{
+        background: url('/img/Universe\ \(12\).JPG');
     }
 }
