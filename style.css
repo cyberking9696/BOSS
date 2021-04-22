@@ -3,18 +3,18 @@
     padding: 0;
 }
 .header{
-    background: url('./img/Universe\ \(62\).JPG');
+    background: url('./img/Universe\ \(62\).JPG')no-repeat center / cover;
     height: 85vh;
     animation: slider 10s infinite linear;
 }
 @keyframes slider{
     10%{
-        background: url('/img/How-Tech-is-Changing-the-Way-we-Work-1024x639.jpg');
+        background: url('/img/How-Tech-is-Changing-the-Way-we-Work-1024x639.jpg')no-repeat center / cover;
     }
     60%{
-        background: url('/img/images.jpg');
+        background: url('/img/images.jpg')no-repeat center / cover;
     }
     30%{
-        background: url('/img/Universe\ \(12\).JPG');
+        background: url('/img/Universe\ \(12\).JPG')no-repeat center / cover;
     }
 }
