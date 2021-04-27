@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
 }
-.container{
-    position: absolute;
-}
 ul{
-    position: fixed;
+    display: flex;
+    padding-left: 50px;
+}
+.nav{
+    display: flex;
 }
 .header{
     background: url('./img/Universe\ \(62\).JPG')no-repeat center / cover;
@@ -15,13 +16,19 @@ ul{
     position: relative;
 }
 @keyframes slider{
-    10%{
-        background: url('/img/How-Tech-is-Changing-the-Way-we-Work-1024x639.jpg')no-repeat center / cover;
+    20%{
+        background: url('/img/2021_chevrolet_camaro_angularfront.jpg')no-repeat center / cover;
     }
-    60%{
-        background: url('/img/images.jpg')no-repeat center / cover;
+    20%{
+        background: url('/img/neon.jpg')no-repeat center / cover;
     }
     30%{
-        background: url('/img/Universe\ \(12\).JPG')no-repeat center / cover;
+        background: url('/img/bmw\ i.png')no-repeat center / cover;
+    }
+    40%{
+        background: url('/img/Universe\ \(55\).JPG')no-repeat center / cover;
+    }
+    50%{
+        background: url('/img/How-Tech-is-Changing-the-Way-we-Work-1024x639.jpg')no-repeat center / cover;
     }
 }
